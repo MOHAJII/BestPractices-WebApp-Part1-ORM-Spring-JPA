@@ -1,5 +1,8 @@
 # **WebApp-BestPractices-ORM-SpringJpa**
 
+![Description](pictures/orm-spring-jpa.png)
+
+
 ## **Introduction**  
 This repository explores **best practices for building a web application** using **Spring Data JPA** for ORM. The goal is to demonstrate efficient database interactions with **Spring Boot** and JPA.
 
