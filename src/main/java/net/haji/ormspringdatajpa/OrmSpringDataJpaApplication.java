@@ -27,6 +27,8 @@ public class OrmSpringDataJpaApplication {
             patientRepository.save(Patient.builder().nom("Omar").malade(false).score(20).build());
             patientRepository.save(Patient.builder().nom("Zakaria").malade(false).score(20).build());
             patientRepository.save(Patient.builder().nom("Mourad").malade(false).score(20).build());
+
+            patientRepository.findAll().forEach(System.out::println);
         };
     }
 }
